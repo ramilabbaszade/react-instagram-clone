@@ -1,0 +1,25 @@
+.small-profile {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.medium-profile {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.profileWithName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileName {
+    font-size: 12px;
+    padding: 3px;
+}

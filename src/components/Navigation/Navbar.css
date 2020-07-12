@@ -1,0 +1,17 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 15px;
+}
+nav{
+    padding: .2rem 0;
+    background-color: white;
+}
+
+
+.insta-logo{
+    width: 110px;
+    height: auto;
+}

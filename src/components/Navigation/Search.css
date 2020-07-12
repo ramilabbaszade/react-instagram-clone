@@ -1,0 +1,15 @@
+.search {
+    outline: none;
+    border: 1px solid rgba(143, 143, 143, 0.363);
+    border-radius: 2px;
+    width: 14rem;
+    padding: .2rem 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .search {
+        display: none;
+    }
+}

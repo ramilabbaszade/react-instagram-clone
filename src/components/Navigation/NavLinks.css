@@ -1,0 +1,7 @@
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a{
+    margin-left: 15px;
+}

@@ -1,0 +1,16 @@
+.home-page {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-page {
+        text-align: center;
+        grid-template-columns: auto;
+    }
+
+    .main-home {
+        text-align: center;
+    }
+}

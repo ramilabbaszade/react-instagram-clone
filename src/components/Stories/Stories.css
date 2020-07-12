@@ -1,0 +1,9 @@
+.stories{
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    border: 1px solid rgb(207, 207, 207);
+    background-color: white;
+    border-radius: 3px;
+    gap: 2px;
+}
