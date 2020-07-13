@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1000px) {
+    .suggestions {
+        display: none;
+    }
+}
+.user-profile{
+    padding: 1rem;
+}
+.suggestions-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    font-size: 14px;
+}

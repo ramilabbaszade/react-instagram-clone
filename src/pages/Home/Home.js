@@ -2,7 +2,7 @@ import React from 'react'
 
 import Stories from '../../components/Stories/Stories'
 import Post from '../../components/Post/Post'
-import Suggestions from '../../components/SideBar/Suggestions'
+import Suggestions from '../../components/Suggestions/Suggestions'
 
 import './Home.css'
 
@@ -13,7 +13,9 @@ const Home = () => {
                 <Stories />
                 <Post />
             </div>
-            <Suggestions />
+            <div className="sidebar-home">
+                <Suggestions />
+            </div>
         </div>
     )
 }

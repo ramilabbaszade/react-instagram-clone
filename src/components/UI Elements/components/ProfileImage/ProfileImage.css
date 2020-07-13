@@ -21,5 +21,19 @@
 
 .profileName {
     font-size: 12px;
-    padding: 3px;
+    font-weight: bold;
+}
+
+.profileWithNameRow{
+    flex-direction: row;
+}
+.profileTitles{
+    padding: 10px;
+    text-align: left;
+}
+.profileTitles small{
+    opacity: .5;
+}
+.btnPosition{
+    justify-content: space-between;
 }

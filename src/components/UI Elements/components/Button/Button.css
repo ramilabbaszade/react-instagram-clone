@@ -1,0 +1,14 @@
+.btn{
+    background-color: transparent;
+    color: #1F45FC;
+    border: none;
+    font-size: 12px;
+}
+.btn:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.btn-bg-blue{
+    background-color: #1F45FC;
+    color: white;
+}

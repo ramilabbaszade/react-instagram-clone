@@ -1,0 +1,4 @@
+.suggestedProfile{
+    display: flex;
+    flex-direction: column;
+}
