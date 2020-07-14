@@ -28,7 +28,7 @@
     flex-direction: row;
 }
 .profileTitles{
-    padding: 10px;
+    padding-left: 8px;
     text-align: left;
 }
 .profileTitles small{

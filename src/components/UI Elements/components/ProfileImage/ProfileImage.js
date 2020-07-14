@@ -8,14 +8,14 @@ import './ProfileImage.css'
 const ProfileImage = props => {
     return (
         <div>
-            <Link to="/" className={`profileWithName ${props.profileWithNameRow && 'profileWithNameRow'} ${props.followUser && 'btnPosition'}`}>
-                <img src={exProfilePhoto} alt={props.profileName && 'profile'} className={`${props.className}`} />
-                <div className="profileTitles">
+            <div className={`profileWithName ${props.profileWithNameRow && 'profileWithNameRow'} ${props.followUser && 'btnPosition'}`}>
+                <Link to="/"> <img src={exProfilePhoto} alt={props.profileName && 'profile'} className={`${props.className}`} /> </Link>
+                <Link to="/" className="profileTitles">
                     {props.profileName ? <div className="profileName">{props.profileName}</div> : null}
                     {props.subName ? <small className="profileSubname">{props.subName}</small> : null}
-                </div>
-                {props.followUser && <Button/>}
-            </Link>
+                </Link>
+                {props.followUser && <Button />}
+            </div>
         </div>
     )
 }
