@@ -1,8 +1,9 @@
 import React from 'react'
 
-import ProfileImage from '../UI Elements/components/ProfileImage/ProfileImage'
 import exProfilePhoto from '../../assets/img/profile1.jpg'
 
+import ProfileAvatar from '../UI Elements/components/ProfileImage/ProfileAvatar'
+import ProfileTitles from '../UI Elements/components/ProfileImage/ProfileTitles'
 
 import './Post.css'
 
@@ -10,8 +11,11 @@ const Post = () => {
     return (
         <div className="post-item">
             <div className="post-header">
-                <ProfileImage className="small-profile" profileName="nickname" profileWithNameRow />
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <div className="post-header-nickname">
+                    <ProfileAvatar className="small-profile" />
+                    <ProfileTitles profileName="nickname" paddingStyle={{paddingLeft:'5px'}}/>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" />
                     <circle cx="5" cy="12" r="1" />
                     <circle cx="12" cy="12" r="1" />
@@ -51,9 +55,8 @@ const Post = () => {
                 <div className="post-likes"></div>
                 <div className="post-time"></div>
                 <div className="post-comment">
-                    <hr/>
                     <form className="post-comment-form">
-                        <input type="text" placeholder="Add a comment"/>
+                        <input type="text" placeholder="Add a comment" />
                         <button>Post</button>
                     </form>
                 </div>

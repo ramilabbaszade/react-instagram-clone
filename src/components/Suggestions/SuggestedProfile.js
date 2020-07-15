@@ -1,39 +1,28 @@
 import React from 'react'
-import ProfileImage from '../UI Elements/components/ProfileImage/ProfileImage'
+import ProfileAvatar from '../UI Elements/components/ProfileImage/ProfileAvatar'
+import ProfileTitles from '../UI Elements/components/ProfileImage/ProfileTitles'
+import Button from '../UI Elements/components/Button/Button'
+import './SuggestedProfile.css'
 
 const SuggestedProfile = () => {
     return (
-        <div>
+        <div className="suggestedProfile-container">
             <div className="suggestedProfile">
-                <ProfileImage
+                <ProfileAvatar
                     className='small-profile'
                     profileName='ramilabbaszade'
                     subName='Ramil Abbaszade'
                     profileWithNameRow
-                    followUser
                 />
-                <ProfileImage
-                    className='small-profile'
-                    profileName='ramilabbaszade'
-                    subName='Ramil Abbaszade'
-                    profileWithNameRow
-                    followUser
-                />
-                <ProfileImage
-                    className='small-profile'
-                    profileName='ramilabbaszade'
-                    subName='Ramil Abbaszade'
-                    profileWithNameRow
-                    followUser
-                />
-                <ProfileImage
-                    className='small-profile'
-                    profileName='ramilabbaszade'
-                    subName='Ramil Abbaszade'
-                    profileWithNameRow
-                    followUser
-                />
+                <div className="suggestedProfile-title">
+                    <ProfileTitles
+                        profileTitlesRow
+                        profileName="ramilabbaszade"
+                        subName="New to instagram"
+                    />
+                </div>
             </div>
+            <Button btnTitle="Follow" />
         </div>
     )
 }

@@ -1,0 +1,32 @@
+.profileTitlesRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileName {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profileNameNormal {
+    font-weight: initial;
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.profileWithNameRow {
+    flex-direction: row;
+}
+
+.profileTitles {
+    text-align: left;
+}
+
+.profileTitles small {
+    opacity: .5;
+}
+
+.btnPosition {
+    justify-content: space-between;
+}

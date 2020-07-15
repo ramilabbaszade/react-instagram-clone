@@ -1,4 +1,12 @@
 .suggestedProfile{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+.suggestedProfile-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.suggestedProfile-title{
+    padding-left: 7px;
 }

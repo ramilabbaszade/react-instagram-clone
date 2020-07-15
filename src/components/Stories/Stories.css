@@ -1,9 +1,16 @@
 .stories{
     display: flex;
     align-items: center;
-    padding: 0.7rem;
+    padding: 1rem 0.5rem;
     border: 1px solid rgb(207, 207, 207);
     background-color: white;
     border-radius: 3px;
-    gap: 2px;
+    justify-content: center;
+    
+}
+.stories-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
