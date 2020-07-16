@@ -5,8 +5,7 @@
     border: 1px solid rgb(207, 207, 207);
     background-color: white;
     border-radius: 3px;
-    justify-content: center;
-    
+    gap: 4px;
 }
 .stories-item{
     display: flex;
