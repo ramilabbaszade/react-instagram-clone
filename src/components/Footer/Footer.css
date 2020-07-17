@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+@media only screen and (max-width: 874px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer-links{
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+}
+.footer-links a{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    color: #36376b;
+}
+
+.footer-copyright{
+    opacity: .5;
+    font-size: 12px;
+}

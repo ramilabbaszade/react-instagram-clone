@@ -7,13 +7,13 @@ import ProfileTitles from '../UI Elements/components/ProfileImage/ProfileTitles'
 
 import './Post.css'
 
-const Post = () => {
+const Post = ({ userName, caption, imageUrl }) => {
     return (
         <div className="post-item">
             <div className="post-header">
                 <div className="post-header-nickname">
-                    <ProfileAvatar className="small-profile" />
-                    <ProfileTitles profileName="nickname" paddingStyle={{ paddingLeft: '5px' }} />
+                    <ProfileAvatar imageUrl={exProfilePhoto} userName={userName} className="small-profile" />
+                    <ProfileTitles userName={userName} paddingStyle={{ paddingLeft: '5px' }} />
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-dots" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" />
@@ -23,7 +23,7 @@ const Post = () => {
                 </svg>
             </div>
             <div className="post-image">
-                <img src={exProfilePhoto} alt="" />
+                <img src={imageUrl} alt="" />
             </div>
             <div className="post-footer">
                 <div className="post-actions">
@@ -56,8 +56,8 @@ const Post = () => {
                 <div className="post-body">
                     <div className="post-author-title">
                         <p className="post-user-comment">
-                            <b>rmlabs</b>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias inventore explicabo, debitis minima quibusdam animi sed ex perspiciatis maxime eius, ullam, deserunt impedit quia totam? Tenetur delectus numquam impedit harum
+                            <b>{userName}</b>
+                            {caption}
                         </p>
                         <div className="view-all-comments">View all comments</div>
                     </div>

@@ -5,6 +5,9 @@ a{
   text-decoration: none;
   color: black;
 }
+li{
+  list-style-type: none;
+}
 main{
   margin-top: 2rem;
 }

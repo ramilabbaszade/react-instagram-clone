@@ -17,7 +17,7 @@ const SuggestedProfile = () => {
                 <div className="suggestedProfile-title">
                     <ProfileTitles
                         profileTitlesRow
-                        profileName="ramilabbaszade"
+                        userName="ramilabbaszade"
                         subName="New to instagram"
                     />
                 </div>

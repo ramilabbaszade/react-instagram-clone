@@ -18,7 +18,7 @@ const Suggestions = () => {
         />
         <ProfileTitles
           profileTitlesRow
-          profileName="ramilabbaszade"
+          userName="ramilabbaszade"
           subName="Ramil Abbaszade"
           paddingStyle={{paddingLeft:'5px'}}
         />

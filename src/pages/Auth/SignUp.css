@@ -1,0 +1,13 @@
+.signup{
+    display: flex;
+    height: 95vh;
+    text-align: center;
+}
+.signup-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.signup-frame{
+    text-align: center;
+}

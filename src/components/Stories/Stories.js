@@ -11,19 +11,19 @@ const Stories = () => {
       <div className="stories" >
         <div className="stories-item">
           <ProfileAvatar className='medium-profile' />
-          <ProfileTitles profileName='ramilabbaszade' profileNameNormal />
+          <ProfileTitles userName='ramilabbaszade' profileNameNormal />
         </div>
         <div className="stories-item">
           <ProfileAvatar className='medium-profile' />
-          <ProfileTitles profileName='ramilabbaszade' profileNameNormal />
+          <ProfileTitles userName='ramilabbaszade' profileNameNormal />
         </div>
         <div className="stories-item">
           <ProfileAvatar className='medium-profile' />
-          <ProfileTitles profileName='ramilabbaszade' profileNameNormal />
+          <ProfileTitles userName='ramilabbaszade' profileNameNormal />
         </div>
         <div className="stories-item">
           <ProfileAvatar className='medium-profile' />
-          <ProfileTitles profileName='ramilabbaszade' profileNameNormal />
+          <ProfileTitles userName='ramilabbaszade' profileNameNormal />
         </div>
       </div>
     </div>
