@@ -5,6 +5,7 @@ import SuggestedProfile from "./SuggestedProfile";
 
 import "./Suggestions.css";
 import ProfileTitles from "../UI Elements/components/ProfileImage/ProfileTitles";
+import {users} from "../../data";
 
 const Suggestions = () => {
   return (
@@ -28,11 +29,11 @@ const Suggestions = () => {
           <div>Suggestions For You</div>
           <b>See all</b>
         </div>
-        <SuggestedProfile />
-        <SuggestedProfile />
-        <SuggestedProfile />
-        <SuggestedProfile />
-        <SuggestedProfile />
+          {
+              users.map((user,index)=>{
+                  return <SuggestedProfile key={index} user={user}/>
+              })
+          }
       </div>
 
     </div>

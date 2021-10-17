@@ -4,20 +4,21 @@ import ProfileTitles from '../UI Elements/components/ProfileImage/ProfileTitles'
 import Button from '../UI Elements/components/Button/Button'
 import './SuggestedProfile.css'
 
-const SuggestedProfile = () => {
+const SuggestedProfile = ({user}) => {
     return (
         <div className="suggestedProfile-container">
             <div className="suggestedProfile">
                 <ProfileAvatar
                     className='small-profile'
-                    profileName='ramilabbaszade'
+                    profileName={user.username}
+                    picture={user.picture}
                     subName='Ramil Abbaszade'
                     profileWithNameRow
                 />
                 <div className="suggestedProfile-title">
                     <ProfileTitles
                         profileTitlesRow
-                        userName="ramilabbaszade"
+                        userName={user.username}
                         subName="New to instagram"
                     />
                 </div>

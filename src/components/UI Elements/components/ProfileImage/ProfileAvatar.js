@@ -5,7 +5,7 @@ import './ProfileAvatar.css'
 
 const ProfileAvatar = (props) => {
     return (
-        <img src={exProfilePhoto} alt={props.profileName && 'profile'} className={`${props.className}`} />
+        <img src={props.picture || exProfilePhoto} alt={props.profileName && 'profile'} className={`${props.className}`} />
     )
 }
 
